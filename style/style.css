@@ -1,0 +1,179 @@
+@import url("https://fonts.google.com/specimen/Ubuntu");
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Ubuntu";
+}
+
+.logo {
+  position: absolute;
+  height: 71px;
+  left: 82px;
+  top: 20px;
+}
+.container-logo {
+  width: 1440px;
+  height: 117px;
+  left: 0px;
+  top: 0px;
+  background: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);  
+} 
+  
+ul.menu {
+    width: 309px;
+    height: 23px;
+    left: 1028px;
+    top: 47px;
+    position: absolute;
+
+  }
+  
+  .menu-item {
+    display: inline;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;  
+    text-decoration: none;
+    list-style-type: none;
+
+  }
+  .menu-item-link {
+    color: #FDFDFD;
+
+  }
+  .cursos {
+    width: 263px;
+    height: 69px;
+    left: 82px;
+    top: 198px;
+    margin-left: 82px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+  }
+
+  .educacao {
+    width: 317px;
+    height: 23px;
+    left: 82px;
+    top: 280px;
+    margin-left: 82px;
+
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+  }
+
+  .curso1 {
+    display: flex;
+    width: 1157px;
+    height: 381px;
+    margin: 68px;
+  }
+
+  .container-curso1 {
+    margin: 10px 50px;
+  
+  }
+  .imagem-curso1 {
+    margin: 10px 50px;
+  }
+  
+  .titulo-curso1 {
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 406px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FF4081;
+  }
+
+  .texto-curso1{
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 483px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;    
+  }
+  .link-curso1 {
+    width: 233px;
+    height: 51px;
+    left: 545px;
+    top: 641px;
+
+    background: #419488;
+    border-radius: 62px;
+  }
+    footer {
+    display: flex;
+    width: 1440px;
+    height: 207px;
+    left: 0px;
+    top: 2222px;
+    background-color: #419488;
+  }
+  .logo-footer {
+    left: 128px;
+    top: 53px;
+    border-radius: 0px;
+    margin: 30px;
+
+  }
+  .menu-rodape {
+    display: inline;
+    margin: 50px 200px;
+    }
+    .lista-menu-rodape {
+      list-style-type: none;
+
+    } 
+    .item-menu-rodape {
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+    .menu-rodape2 {
+      margin: 50px;
+      }
+      .link-menu-rodape2 {
+        width: 233px;
+        height: 51px;
+        left: 545px;
+        top: 641px;
+        display: block;
+        background: #419488;
+        border-radius: 62px;
+        font-size: 20px;
+        line-height: 23px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 62px;
+        padding: 2px;
+        color: #FFFFFF;
+      }
