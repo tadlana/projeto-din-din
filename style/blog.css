@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.logo {
+  margin-left: 30px;
+  display: flex;
+}
+
+.container-logo {
+  display: flex;
+  height: 85px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);  
+   }
+
+  .menu-item-link {
+    display: inline;
+    color: #FDFDFD;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+
+  .cursos {
+    margin: 10px 50px;
+    font-weight: bold;
+    font-size: 47px;
+    width: 512px;
+    text-transform: capitalize;
+    color: #FF4081;
+    height: 108px;
+
+  }
+
+  .blog {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 100px;
+
+  }
+  .container-blog {
+    margin: 100px 20px;
+    max-width: 1440px;
+  }
+  
+  .imagem-blog {
+    width: 405px;
+    height: 405px;  
+    margin-top: 48px;   
+  }
+  
+  .titulo-curso1 {
+    width: 455px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FF4081;
+    padding: 20px 10px;
+  }
+
+  .texto-curso1{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    margin: 10px 50px;
+    width: 461px;
+
+  }
+
+
+  .texto-blog{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding: 20px 10px;
+    width: 516px;
+    height: 80px;
+
+  }
+
+  .container-item {
+    display: flex;
+    padding: 100px;  
+    width: 450px;
+    height: 200px;
+  }
+    footer {
+    display: flex;
+    max-width: 1440px;
+    background-color: #419488;
+  }
+  .logo-footer {
+    border-radius: 0px;
+    margin: 30px;
+
+  }
+  .menu-rodape {
+    margin: 50px;
+    }
+    .item-link-rodape {
+    margin: 50px 200px;
+    display: inline;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: 31px;
+
+    }
+    .menu-rodape2 {
+      margin: 50px;
+      }
+
+      .link-menu-rodape2 {
+        width: 233px;
+        height: 51px;
+        display: block;
+        background: #419488;
+        border-radius: 62px;
+        font-size: 20px;
+        line-height: 23px;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 62px;
+        padding: 2px;
+        color: #FFFFFF;
+        margin-top: 10px;
+      }
+      
