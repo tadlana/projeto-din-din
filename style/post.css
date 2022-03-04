@@ -1,33 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap');
 
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 * {
   font-family: "Ubuntu", sans-serif;
 }
 
-.logo {
-  margin-left: 30px;
-  display: flex;
+.logo-header {
+  margin: 5% 10%;
 }
 
 .container-logo {
   display: flex;
-  height: 85px;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1440px;
-  margin: 0 auto;
   background: #2E948A;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);  
-   }
 
+   }
   .menu-item-link {
     display: inline;
     color: #FDFDFD;
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
-    margin-right: 30px;
+    margin: 10px 20px;
+  }
+  .menu {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  footer {
+    background-color:#2E948A;
+    padding: 1% 2%
+  }
+  
+  .container-rodape {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin: 3% 5%;
+    }
+    .logo-footer {
+      border-radius: 0px;
+      margin: 30px;
+  
+    }
+    .menu-rodape {
+      margin: 0;
+      padding: 0;
+      text-align: left;
+  
+      }
+      .item-link-rodape {
+      display: inline;
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 10px 20px;
+      line-height: 31px;
+  
+      }
+      .menu-rodape2 {
+        margin: 0;
+        padding: 0;      }
+  
+        .link-menu-rodape2 {
+          display: block;
+          background: #419488;
+          border-radius: 62px;
+          font-size: 20px;
+          line-height: 23px;
+          border: 2px solid #FFFFFF;
+          box-sizing: border-box;
+          padding: 10px;
+          color: #FFFFFF;
+          margin-top: 10px;
+          width: 233px;
+          height: 51px;
   }
 
   .post {
@@ -74,9 +134,8 @@
     line-height: 21px;
     color: #000000;
     width: 1032px;
-    height: 1061px;
     text-align: justify;
-    padding: 150px;
+    padding:  50px 150px;
   }
   
   .titulo-cursos {
@@ -92,57 +151,30 @@
 
   .conheca-cursos {
     display: flex;
-    padding: 0 150px;  
+    padding: 0 100px;  
   }
   .link-cursos {
     background: #FF4081;
     border-radius: 62px;
-    margin-top: 10px;
-    margin-left: 82px;
+    margin: 10px;
     color: #FFFFFF;
     width: 233px;
     height: 62px;
     font-size: 20px;
   }
-   footer {
+
+  
+  .retangulo {
+    align-content: center;
+    width:1000px;
+    height:190px;
+    background-color: #C4C4C4;
+    margin: 10px 0;
+  }
+
+  .investimento {
     display: flex;
-    max-width: 1440px;
-    background-color: #419488;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
   }
-  .logo-footer {
-    border-radius: 0px;
-    margin: 30px;
-
-  }
-  .menu-rodape {
-    margin: 50px;
-    }
-    .item-link-rodape {
-    margin: 50px 200px;
-    display: inline;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 10px 20px;
-    line-height: 31px;
-
-    }
-    .menu-rodape2 {
-      margin: 50px;
-      }
-
-      .link-menu-rodape2 {
-        width: 233px;
-        height: 51px;
-        display: block;
-        background: #419488;
-        border-radius: 62px;
-        font-size: 20px;
-        line-height: 23px;
-        border: 2px solid #FFFFFF;
-        box-sizing: border-box;
-        border-radius: 62px;
-        padding: 2px;
-        color: #FFFFFF;
-        margin-top: 10px;
-      }
-      

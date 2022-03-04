@@ -11,19 +11,15 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
-.logo {
-  margin: 2% 5%;
-
-
+.logo-header {
+  margin: 5% 10%;
 }
+
 .container-logo {
   display: flex;
-  height: 85px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1440px;
-  margin: 0 auto;
   background: #2E948A;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);  
 
@@ -35,9 +31,66 @@ body {
     font-size: 20px;
     text-decoration: none;
     margin: 10px 20px;
-
   }
-  section {
+  .menu {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  footer {
+    background-color:#2E948A;
+    padding: 1% 2%
+  }
+  
+  .container-rodape {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin: 3% 5%;
+    }
+    .logo-footer {
+      border-radius: 0px;
+      margin: 30px;
+  
+    }
+    .menu-rodape {
+      margin: 0;
+      padding: 0;
+      text-align: left;
+  
+      }
+      .item-link-rodape {
+      display: inline;
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 10px 20px;
+      line-height: 31px;
+  
+      }
+      .menu-rodape2 {
+        margin: 0;
+        padding: 0;      }
+  
+        .link-menu-rodape2 {
+          display: block;
+          background: #419488;
+          border-radius: 62px;
+          font-size: 20px;
+          line-height: 23px;
+          border: 2px solid #FFFFFF;
+          box-sizing: border-box;
+          padding: 10px;
+          color: #FFFFFF;
+          margin-top: 10px;
+          width: 233px;
+          height: 51px;
+        }  
+    
+        section {
     display: flex;
     margin: 5%;
     justify-content: space-evenly;  
@@ -85,47 +138,3 @@ body {
     height: 400px;
     margin: 0 15%;
   }
-
-    footer {
-    display: flex;
-    max-width: 1440px;
-    background-color: #419488;
-  }
-  .logo-footer {
-    border-radius: 0px;
-    margin: 30px;
-
-  }
-  .menu-rodape {
-    margin: 50px;
-    }
-    .item-link-rodape {
-    margin: 50px 200px;
-    display: inline;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 10px 20px;
-    line-height: 31px;
-
-    }
-    .menu-rodape2 {
-      margin: 50px;
-      }
-
-      .link-menu-rodape2 {
-        width: 233px;
-        height: 51px;
-        display: block;
-        background: #419488;
-        border-radius: 62px;
-        font-size: 20px;
-        line-height: 23px;
-        border: 2px solid #FFFFFF;
-        box-sizing: border-box;
-        border-radius: 62px;
-        padding: 2px;
-        color: #FFFFFF;
-        margin-top: 10px;
-      }
-
-      
