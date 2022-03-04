@@ -1,19 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 * {
   font-family: "Ubuntu", sans-serif;
 }
 
 .logo {
-  margin-left: 30px;
-  display: flex;
+  margin: 2% 5%;
+
 
 }
 .container-logo {
   display: flex;
   height: 85px;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
@@ -27,60 +34,168 @@
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
-    margin-right: 30px;
+    margin: 10px 20px;
 
   }
   .container-inicio {
     display: flex;
+    margin: 5%;
+    justify-content: center;
+
   }
 
   .titulo-inicio {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     text-transform: capitalize;
     color: #FF4081;
   }
 
   .texto-inicio {
-    margin-left: 82px;
-    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
     color: #555555;
+    font-size: 20px;
   }
 
-    .titulo-cursos {
-    width: 360px;
-    left: 25px;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 40px;
+  .link-inicio {
+    border-style: none;
+    background-color: #FFFFFF;
     color: #FF4081;
-    padding: 20px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    padding: 7px 20px;
+  }
+
+  .imagem-curso1 {
+    height: 400px;
+    margin: 0 15%;
+
+  }
+  #conheca-cursos {
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2% 0;
+  }
+
+  .investimento {
+      width: 300px;
+      margin: 5%;
+  }
+  .titulo-cursos {
+    font-weight: bold;
+    font-size: 22px;
+    color: #FF4081;
     text-align: center;
   }
 
-  .conheca-cursos {
-    display: flex;
-    padding: 0 150px;  
-  }
   .link-cursos {
     background: #FF4081;
     border-radius: 62px;
-    margin-top: 10px;
-    margin-left: 82px;
     color: #FFFFFF;
     width: 233px;
     height: 62px;
     font-size: 20px;
   }
+
+  .iniciante {
+    height: 270px;
+
+  }
+  #depoimentos {
+    background-color: #FFFFFF;
+    padding: 5% 5%;
+    align-items: center;
+  }
+  .titulo{
+    color: #009688;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  #depoimentos p {
+    font-size: 18px;
+    line-height: 20.9px;
+    text-align: left;
+}
+
   .review {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 5%;
+  }
+  .bloco1 {
+    display: flex;
+    width: 500px;
+    text-align: left;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .imagem-review {
+    width: 95px;
+    margin-right: 10px;
+}
+
+  #container-conteudo {
+    background-color: #F6F6F6;
+    margin: 0;
   }
 
-  .conteiner-conteudo {
+  .navegacao {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    margin: 0;  
+    align-items: center;
+    justify-content: space-evenly;
+
   }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    text-align: left;
+    margin: 0;
+    padding: 2%; 
+}
+.conteudo-2 {
+  width:300px;
+  height:190px;
+  background-color: #C4C4C4;
+  margin: 10px 0;
+}
+.subtitulo-2 {
+  color: #009688;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+.link-conteudo {
+  border-style: none;
+  background-color: #FFFFFF;
+  color: #FF4081;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+  border: 2px solid #FF4081;
+  box-sizing: border-box;
+  border-radius: 62px;
+  padding: 7px 20px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+}
     footer {
     display: flex;
     max-width: 1440px;
